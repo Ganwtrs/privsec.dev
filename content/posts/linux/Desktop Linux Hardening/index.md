@@ -11,7 +11,7 @@ Linux is [not a secure desktop operating system](/posts/linux/linux-insecurities
 
 Some of the sections will include mentions of unofficial builds of packages like linux&#8209;hardened, akmod, hardened_malloc, and so on. These are not endorsements&nbsp;--- they are merely to show that you have options to easily obtain and update these packages. Using unofficial builds of packages means adding more parties to trust, and you have to evaluate whether it is worth doing so for the potential privacy/security benefits or not.
 
-![Fedora Tux](/images/fedora-tux.png)
+![Fedora Tux](fedora-tux.png)
 
 ## During Installation
 
@@ -144,8 +144,8 @@ Snap permissions can be managed via the Snap Store or Ubuntu's custom patched GN
 
 On Ubuntu, you can replace various .deb packages with strictly confined snaps to minimize the attack surface. Some examples of these packages are the printing stack or `ufw`:
 
-![Cups Snap](/images/ubuntu-cups-snap.png)
-![UFW Snap](/images/ubuntu-ufw-snap.png)
+![Cups Snap](ubuntu-cups-snap.png)
+![UFW Snap](ubuntu-ufw-snap.png)
 
 One caveat with Snap packages is that you only have control over the interfaces declared in their manifests. For example, Snap has separate interfaces for `audio-playback` and `audio-record`, but some packages will only declare the legacy `pulseaudio` interface which grants access to both play and record audio. Likewise, some applications may work perfectly fine with Wayland, but the package maintainer may only declare the X11 interface in their manifest. For these cases, you need to reach out to the maintainer of the snap to update the manifest accordingly.
 
@@ -435,7 +435,7 @@ OPTIONS="-F 1"
 
 On Ubuntu and Debian, the environment file is `/etc/default/chrony`, and the seccomp filter should already be enabled by default.
 
-![Verifying NTS configuration](/images/nts.png)
+![Verifying NTS configuration](nts.png)
 
 ### Pluggable Authentication Modules (PAM)
 
