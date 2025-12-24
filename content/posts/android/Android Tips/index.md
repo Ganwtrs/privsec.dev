@@ -28,7 +28,7 @@ You should also be very wary of low quality privacy branded phones like the Free
 
 ## Android-based Operating Systems
 
-![GrapheneOS Aurora](/grapheneos-aurora.jpg)
+![GrapheneOS Aurora](grapheneos-aurora.jpg)
 
 In certain cases, installing a custom Android-based operating system can help increase your privacy and security. This is rather tricky, however, as the vast majority of these operating systems (a.k.a. "custom ROMs") do exactly the opposite: break the Android security model, thereby ruining your security while providing no or dubious privacy benefits.
 
